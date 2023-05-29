@@ -1,11 +1,25 @@
 body{
     font-family: sans-serif;
+    background-image: url("../images/aboutuspic.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.logo1{
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    background-size: cover;
 }
 
 .hero-image {
     background-image: url("../images/home.jpg");
     background-color: #cccccc;
     height: 900px;
+    max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,7 +62,7 @@ body{
 }
 
 .navigation{
-    background-color: rgb(255, 195, 43);
+    background-color: rgb(160, 123, 0);
 }
 
 .navs{
@@ -65,7 +79,6 @@ body{
 }
 
 .aboutus{
-    border: 1px solid black;
     text-align: center;
     align-items: center;
     padding: 30px;
